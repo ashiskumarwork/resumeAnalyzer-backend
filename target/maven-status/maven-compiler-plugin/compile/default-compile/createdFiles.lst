@@ -1,0 +1,10 @@
+com\student\resumeanalyzer\Application.class
+com\student\resumeanalyzer\model\ResumeAnalysis.class
+com\student\resumeanalyzer\service\ResumeService.class
+com\student\resumeanalyzer\util\JwtUtil.class
+com\student\resumeanalyzer\controller\AuthController.class
+com\student\resumeanalyzer\model\User.class
+com\student\resumeanalyzer\repository\UserRepository.class
+com\student\resumeanalyzer\controller\ResumeController.class
+com\student\resumeanalyzer\repository\ResumeRepository.class
+com\student\resumeanalyzer\filter\JwtFilter.class
