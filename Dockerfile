@@ -1,5 +1,5 @@
 # Simple Dockerfile for Spring Boot (Maven, Java 17)
-# This is enough to run the app on Render using Docker.
+# Works with Fly.io, Render, or any Docker-compatible platform.
 
 # ===== 1) Build stage: use Maven + Java 17 to build the jar =====
 FROM maven:3.9-eclipse-temurin-17 AS build
