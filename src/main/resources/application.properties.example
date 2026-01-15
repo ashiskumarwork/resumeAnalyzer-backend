@@ -3,11 +3,13 @@ server.port=8080
 
 # MongoDB Atlas Configuration
 # Replace with your MongoDB Atlas connection string
-spring.data.mongodb.uri=mongodb+srv://ashiskumarwork:FXBeTAPBOhY3qhuF@resume-analyzer-cluster.svxfglv.mongodb.net/aiResumeAnalyzerDB?retryWrites=true&w=majority&appName=resume-analyzer
+# Get it from: MongoDB Atlas Dashboard → Connect → Connect your application
+spring.data.mongodb.uri=YOUR_MONGODB_ATLAS_URI_HERE
 
 # OpenRouter API Configuration
 # Replace with your OpenRouter API key
-openrouter.api.key=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
+# Get it from: https://openrouter.ai/ → API Keys
+openrouter.api.key=YOUR_OPENROUTER_API_KEY_HERE
 openrouter.api.url=https://openrouter.ai/api/v1/chat/completions
 
 # File Upload Configuration
@@ -15,5 +17,6 @@ spring.servlet.multipart.max-file-size=10MB
 spring.servlet.multipart.max-request-size=10MB
 
 # JWT Configuration
-jwt.secret=033d9376242ca44c34c6cce2e02ced21b7d595255634b895ffed927c627020b8
+# Replace with a strong random string (use a password generator)
+jwt.secret=YOUR_JWT_SECRET_HERE
 jwt.expirationMs=86400000
